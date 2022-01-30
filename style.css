@@ -179,4 +179,7 @@ body {
     .navigation.active {
         width: 280px;
     }
+    .toggle {
+        right: 15px;
+    }
 }
