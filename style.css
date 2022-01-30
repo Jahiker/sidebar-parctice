@@ -39,11 +39,6 @@ body {
     width: 300px;
 }
 
-
-/* .navigation:hover {
-    width: 300px;
-} */
-
 .navigation ul {
     position: absolute;
     top: 0;
@@ -178,4 +173,10 @@ body {
 
 .toggle.active ion-icon[name="close-outline"] {
     display: block;
+}
+
+@media screen and (max-width: 375px) {
+    .navigation.active {
+        width: 280px;
+    }
 }
