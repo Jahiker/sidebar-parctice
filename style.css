@@ -3,6 +3,8 @@
     --color-dark: #000000;
     --color-primary: #4d5bf9;
     --color-secondary: #ff4d89;
+    --color-third: #29318a;
+    --color-shadow: rgba(84, 84, 84, 0.316);
 }
 
 * {
@@ -28,11 +30,12 @@ body {
     bottom: 20px;
     width: 70px;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 20px;
     box-sizing: initial;
     border-left: 5px solid var(--color-primary);
     background-color: var(--color-primary);
     transition: width 0.5s;
+    box-shadow: -3px -3px 9px 1px var(--color-shadow);
 }
 
 .navigation.active {
@@ -117,7 +120,7 @@ body {
 }
 
 .navigation ul li.active a {
-    color: var(--color-primary);
+    color: var(--color-third);
 }
 
 .navigation ul li a .icon {
